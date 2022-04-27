@@ -1,0 +1,76 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+/* Styling the navBar */
+
+.navbar{
+    list-style: none;
+    background-color: #6b0b0b;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Sudo class of hover */
+.navbar li a:hover{
+    background-color: #eee1e1;
+    color: #0b6b6b;
+}
+
+
+
+
+/* the side-menu navbar*/
+.side-menu{
+    list-style: none;
+    background-color: #3f0303;
+    padding: 20px;
+    border: 1px solid #6b0b0b;
+    border-radius: 10px;
+    width: 300px;
+    overflow: auto;
+}
+
+.side-menu li{
+    display: list-item;
+    font-size: 18px;
+    line-height: 2.4em;
+    border-bottom: 1px dotted #ffff;
+}
+
+.side-menu li a{
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: auto;
+}
+
+.side-menu li:last-child{
+    border-bottom: none;
+
+}
+
+
+
+
+.side-menu li a:hover{
+
+    
+    color: #0b6b6b; 
+}

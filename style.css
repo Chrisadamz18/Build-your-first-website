@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:rgb(35, 17, 134);
+    background-color: rgb(141, 189, 155);;
+    font-family:'RaleWay', sans-serif, cursive, serif;
+    background: url(./images/img3.jpg) no-repeat center center / cover;
+    
+    
+}
+
+/* Id selcetor */
+#hey{
+    background-color:#fff;
+    width: 100%;
+    height: 100%;
+}
+
+/* Class selector */
+.title{
+    color:blue;
+}
+
+/* Multiple Id selector */
+#hey,#About{
+    border: 1px solid rgb(247, 241, 241);
+
+}
+
+/* Nested selector */
+
+#hey p{
+    font-family: 'Square Peg', cursive;
+    font-size:16px;
+    color:rgb(35, 17, 134);
+}
+
+#About .contactMe {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:16px;
+    color:blue;
+}
+#About .para{
+    font-family: 'Courier New', Courier, monospace;
+    color:#fff;
+}
+/* Multiple class selector */
+
+
